@@ -6,7 +6,7 @@ class Kumas{
     
       string urunAdi;
       string tur;
-      double pamukOrani();
+      double pamukOrani;
       double bambuOrani;
       double polyesterOrani;
     
@@ -17,7 +17,7 @@ class Kumas{
           this->urunAdi = urunAdi;
           this->tur = tur;
           this->pamukOrani = pamukOrani;
-          this->bambuOrani = bambuOrani,
+          this->bambuOrani = bambuOrani;
           this->polyesterOrani = polyesterOrani;
       }
     
